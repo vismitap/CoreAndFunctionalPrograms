@@ -17,6 +17,7 @@ namespace CoreAndFunctionalProg
             CoinFlip coin = new CoinFlip();
             LeapYear year = new LeapYear();
             pow2 pow = new pow2();
+            HarmonicNumber num = new HarmonicNumber();
 
             while (flag)
             {
@@ -51,6 +52,10 @@ namespace CoreAndFunctionalProg
 
                     case 3:
                         pow.CalPow2();
+                        break;
+
+                    case 4:
+                        num.CalHarmonicNo();
                         break;
 
 
