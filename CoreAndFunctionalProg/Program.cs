@@ -19,6 +19,7 @@ namespace CoreAndFunctionalProg
             pow2 pow = new pow2();
             HarmonicNumber num = new HarmonicNumber();
             Factors factors = new Factors();
+            QuotientRemainder ans = new QuotientRemainder();
 
             while (flag)
             {
@@ -63,6 +64,11 @@ namespace CoreAndFunctionalProg
                     case 5:
                         factors.Factor();
                         break;
+
+                    case 6:
+                        ans.calQuotientRemainder();
+                        break;
+
 
 
                 }
