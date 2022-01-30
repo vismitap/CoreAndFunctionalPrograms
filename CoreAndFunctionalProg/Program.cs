@@ -23,6 +23,7 @@ namespace CoreAndFunctionalProg
             SwapTwoNumbers number = new SwapTwoNumbers();
             EvenOdd evenOdd = new EvenOdd();
             VowelOrConsonant alpha = new VowelOrConsonant();
+            LargestAmongThreeNum largest = new LargestAmongThreeNum();
 
             while (flag)
             {
@@ -82,6 +83,14 @@ namespace CoreAndFunctionalProg
 
                     case 9:
                         alpha.determineVowelOrConsonant();
+                        break;
+
+                    case 10:
+                        largest.determineLargest();
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid Input!");
                         break;
                 }
             }
