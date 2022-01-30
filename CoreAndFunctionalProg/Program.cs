@@ -18,6 +18,7 @@ namespace CoreAndFunctionalProg
             LeapYear year = new LeapYear();
             pow2 pow = new pow2();
             HarmonicNumber num = new HarmonicNumber();
+            Factors factors = new Factors();
 
             while (flag)
             {
@@ -33,6 +34,7 @@ namespace CoreAndFunctionalProg
                "9 for VowelOrConsonant\n" +
                "10 for LargestAmongThree\n");
 
+                Console.WriteLine("Enter your option: ");
                 int option = Convert.ToInt32(Console.ReadLine());
 
 
@@ -58,6 +60,9 @@ namespace CoreAndFunctionalProg
                         num.CalHarmonicNo();
                         break;
 
+                    case 5:
+                        factors.Factor();
+                        break;
 
 
                 }
