@@ -8,21 +8,21 @@ namespace CoreAndFunctionalProg
 {
     internal class SwapTwoNumbers
     {
-        public void swapTwoNum()
+        public void SwapTwoNum()
         {
             Console.WriteLine("Enter the first number: ");
-            int a = Convert.ToInt32(Console.ReadLine());
+            int firstNum = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter the second number: ");
-            int b = Convert.ToInt32(Console.ReadLine());
+            int secondNum = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Numbers after swapping: ");
 
-            a += b;
-            b = a - b;
-            a -= b;
+            firstNum += secondNum;
+            secondNum = firstNum - secondNum;
+            firstNum -= secondNum;
 
-            Console.WriteLine("First num = " + a + "\nSecond num = " + b);
+            Console.WriteLine("First num = " + firstNum + "\nSecond num = " + secondNum);
         }
     }
 }

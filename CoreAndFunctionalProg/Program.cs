@@ -21,6 +21,7 @@ namespace CoreAndFunctionalProg
             Factors factors = new Factors();
             QuotientRemainder ans = new QuotientRemainder();
             SwapTwoNumbers number = new SwapTwoNumbers();
+            EvenOdd evenOdd = new EvenOdd();
 
             while (flag)
             {
@@ -67,14 +68,16 @@ namespace CoreAndFunctionalProg
                         break;
 
                     case 6:
-                        ans.calQuotientRemainder();
+                        ans.CalQuotientRemainder();
                         break;
 
                     case 7:
-                        number.swapTwoNum();
+                        number.SwapTwoNum();
                         break;
 
-
+                    case 8:
+                        evenOdd.DetermineEvenOrOdd();
+                        break;
                 }
             }
 
