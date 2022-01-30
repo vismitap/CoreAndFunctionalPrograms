@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fellowship_CSharp_Programs
+namespace CoreAndFunctionalProg
 {
 	public class CoinFlip
 	{
@@ -21,7 +21,7 @@ namespace Fellowship_CSharp_Programs
 			{
 				double test = 0;
 				test = random.NextDouble();
-				Console.WriteLine(test);
+				//Console.WriteLine(test);
 				if (test < 0.5)
 				{
 					noOfTails++;

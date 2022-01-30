@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fellowship_CSharp_Programs
+namespace CoreAndFunctionalProg
 {
 	public class LeapYear
 	{
@@ -12,14 +12,21 @@ namespace Fellowship_CSharp_Programs
 		{
 			Console.WriteLine("Enter any year: ");
 			int year = Convert.ToInt32(Console.ReadLine());
-			if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
-			{
-				Console.WriteLine("The " + year + " is a leap year");
+			if(year >= 1000 && year < 10000){
+				if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
+				{
+					Console.WriteLine("The " + year + " is a leap year");
+				}
+				else
+				{
+					Console.WriteLine("The " + year + " is NOT a leap year");
+				}
 			}
 			else
-			{
-				Console.WriteLine("The " + year + " is NOT a leap year");
-			}
+            {
+				Console.WriteLine("Invalid year!");
+            }
+			
 
 		}
 	}
