@@ -20,6 +20,7 @@ namespace CoreAndFunctionalProg
             HarmonicNumber num = new HarmonicNumber();
             Factors factors = new Factors();
             QuotientRemainder ans = new QuotientRemainder();
+            SwapTwoNumbers number = new SwapTwoNumbers();
 
             while (flag)
             {
@@ -69,6 +70,9 @@ namespace CoreAndFunctionalProg
                         ans.calQuotientRemainder();
                         break;
 
+                    case 7:
+                        number.swapTwoNum();
+                        break;
 
 
                 }
