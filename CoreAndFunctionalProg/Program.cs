@@ -22,6 +22,7 @@ namespace CoreAndFunctionalProg
             QuotientRemainder ans = new QuotientRemainder();
             SwapTwoNumbers number = new SwapTwoNumbers();
             EvenOdd evenOdd = new EvenOdd();
+            VowelOrConsonant alpha = new VowelOrConsonant();
 
             while (flag)
             {
@@ -77,6 +78,10 @@ namespace CoreAndFunctionalProg
 
                     case 8:
                         evenOdd.DetermineEvenOrOdd();
+                        break;
+
+                    case 9:
+                        alpha.determineVowelOrConsonant();
                         break;
                 }
             }
